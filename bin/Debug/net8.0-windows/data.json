@@ -1,0 +1,55 @@
+{
+  "Escolas": [
+    {
+      "Id": 1,
+      "NomeFantasia": "Escola Teste",
+      "RazaoSocial": "Escola Teste Ltda",
+      "CNPJ": "12.345.678/0001-90",
+      "Endereco": "Rua Teste, 123",
+      "Telefone": "(11) 1234-5678"
+    },
+    {
+      "Id": 2,
+      "NomeFantasia": "kakakaka",
+      "RazaoSocial": "oijsoaijsoaijs",
+      "CNPJ": "12345678000195",
+      "Endereco": "",
+      "Telefone": "(  )     -"
+    }
+  ],
+  "Turmas": [
+    {
+      "Id": 1,
+      "EscolaId": 1,
+      "AnoLetivo": "2024",
+      "Serie": "1\u00BA Ano"
+    }
+  ],
+  "Alunos": [
+    {
+      "Id": 1,
+      "TurmaId": 1,
+      "Nome": "Jo\u00E3o Silva",
+      "CPF": "123.456.789-00",
+      "Situacao": "Ativo"
+    }
+  ],
+  "Materias": [
+    {
+      "Id": 1,
+      "Nome": "Matem\u00E1tica",
+      "CargaHoraria": 80
+    }
+  ],
+  "NotasFrequencias": [
+    {
+      "AlunoId": 1,
+      "MateriaId": 1,
+      "Nota1": 8.5,
+      "Nota2": 7,
+      "Nota3": 9,
+      "Nota4": 8,
+      "HorasFrequentadas": 75
+    }
+  ]
+}
